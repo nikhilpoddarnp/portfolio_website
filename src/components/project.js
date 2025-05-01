@@ -13,7 +13,7 @@ export default function project() {
             <p className='P1'>Task Manager</p>
             <p className='P2'>ReactJS,NodeJS,MongoDB</p>
         </div>
-        <a href=''><img src={Task} alt='Project-1' className='projectImg'/></a>
+        <a href='#'><img src={Task} alt='Project-1' className='projectImg'/></a>
        
     </div>
     <div className='project-item'>
@@ -21,7 +21,7 @@ export default function project() {
             <p className='P1'>RECIPE REPO </p>
             <p className='P2'>ReactJS,Node.js,MongoDB</p>
         </div>
-        <a href=''><img src={Recipe} alt='Project-1' className='projectImg'/></a>
+        <a href='#'><img src={Recipe} alt='Project-1' className='projectImg'/></a>
        
     </div>
    </section>

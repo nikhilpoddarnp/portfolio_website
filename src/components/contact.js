@@ -34,8 +34,8 @@ export default function Contact() {
         <div className='socialImgs'>
            <a href='https://www.linkedin.com/in/nikhilpoddarnp'> <img src= {LinkedIn} alt='LinkedIn' className='socialImg' /> </a>
            <a href='https://github.com/nikhilpoddarnp'>  <img src= {Github} alt='Github' className='socialImg' /> </a>
-           <a href=''>  <img src= {Instagram} alt='Instagram' className='socialImg' /> </a>
-           <a href=''>  <img src= {Facebook} alt='Facebook' className='socialImg' /> </a>
+           <a href='#'>  <img src= {Instagram} alt='Instagram' className='socialImg' /> </a>
+           <a href='#'>  <img src= {Facebook} alt='Facebook' className='socialImg' /> </a>
            
         </div>
     </div>
