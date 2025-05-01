@@ -1,6 +1,7 @@
 import React from 'react'
 import './project.css'
-import Banner from '../assests/project.jpg'
+import Recipe from '../assests/foodrecipe.jpeg'
+import Task from '../assests/taskmanager.png'
 
 export default function project() {
   return (
@@ -9,18 +10,18 @@ export default function project() {
     <span className='projectDesc'>Here are my projects</span>
     <div className='project-item'>
         <div className='item-details'>
-            <p className='P1'>Project-1</p>
-            <p className='P2'>TechStack:- HTML and CSS</p>
+            <p className='P1'>Task Manager</p>
+            <p className='P2'>ReactJS,NodeJS,MongoDB</p>
         </div>
-        <a href=''><img src={Banner} alt='Project-1' className='projectImg'/></a>
+        <a href=''><img src={Task} alt='Project-1' className='projectImg'/></a>
        
     </div>
     <div className='project-item'>
         <div className='item-details'>
-            <p className='P1'>Project-2</p>
-            <p className='P2'>TechStack:- HTML,CSS and Bootstrap</p>
+            <p className='P1'>RECIPE REPO </p>
+            <p className='P2'>ReactJS,Node.js,MongoDB</p>
         </div>
-        <a href=''><img src={Banner} alt='Project-1' className='projectImg'/></a>
+        <a href=''><img src={Recipe} alt='Project-1' className='projectImg'/></a>
        
     </div>
    </section>
